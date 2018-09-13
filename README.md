@@ -39,7 +39,7 @@ Login.php
 
 ## index.html
 
-<head>
+     <head>
     <meta charset="utf-8" />
     <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png" />
     <link rel="icon" type="image/png" href="../assets/img/favicon.png" />
@@ -56,7 +56,7 @@ Login.php
     <!--     Fonts and icons     -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300|Material+Icons' rel='stylesheet' type='text/css'>
-</head>
+    </head>
 
 Pada halaman ini belum responsif karena <meta name="viewport" content="width=device-width, initial-scale=1.0"> namun hanya terdapat     <meta name="viewport" content="width=device-width" /> dan ketika dibuktikan dengan inspect, masih terdapat menu yang belum tampil ketika diakses dengan smart phone.
 Untuk tampilannya diperindah dengan menggunakan     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
@@ -64,19 +64,19 @@ Untuk tampilannya diperindah dengan menggunakan     <link href="http://maxcdn.bo
 
 ## Css :
 
-* {
+     * {
 	margin: 0px; 
 	padding: 0px; 
 	box-sizing: border-box;
-}
+      }
 
-body, html {
+     body, html {
 	height: 100%;
 	font-family: Poppins-Regular, sans-serif;
-}
+    }
 
-/*---------------------------------------------*/
-a {
+     /*---------------------------------------------*/
+         a {
 	font-family: Poppins-Regular;
 	font-size: 14px;
 	line-height: 1.7;
@@ -84,9 +84,9 @@ a {
 	margin: 0px;
 	transition: all 0.4s;
 	-webkit-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-}
+     -o-transition: all 0.4s;
+     -moz-transition: all 0.4s;
+      }
 
 Untuk margin, padding,  menggunakan px, 
 Height menggunakan 100% 
