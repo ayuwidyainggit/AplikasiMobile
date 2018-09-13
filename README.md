@@ -28,15 +28,16 @@ Login.php
   </head>
 
 
+# ANALISIS:
 
-ANALISIS:
+1. pada menu login, sudah responsive karena sudah ada <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+2. terdapat initial-scale=1.0 jadi user diijinkan untuk melakukan zoom out atau zoom in.
+3. Tag ini berada pada baris ke 5.
+4. Login.php ini berada pada folder proyekmobile\user\login.php
+5. Aplikasi ini menggunaan bootstrap
+6. Aplikasi ini menggunakan html5
 
-•	pada menu login, sudah responsive karena sudah ada <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-•	terdapat initial-scale=1.0 jadi user diijinkan untuk melakukan zoom out atau zoom in.
-•	Tag ini berada pada baris ke 5.
-•	Login.php ini berada pada folder proyekmobile\user\login.php
-•	Aplikasi ini menggunaan bootstrap
-•	Aplikasi ini menggunakan html5
+## index.html
 
 <head>
     <meta charset="utf-8" />
@@ -60,7 +61,9 @@ ANALISIS:
 Pada halaman ini belum responsif karena <meta name="viewport" content="width=device-width, initial-scale=1.0"> namun hanya terdapat     <meta name="viewport" content="width=device-width" /> dan ketika dibuktikan dengan inspect, masih terdapat menu yang belum tampil ketika diakses dengan smart phone.
 Untuk tampilannya diperindah dengan menggunakan     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
 
-Css :
+
+## Css :
+
 * {
 	margin: 0px; 
 	padding: 0px; 
