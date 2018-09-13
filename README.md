@@ -38,20 +38,6 @@ ANALISIS:
 •	Aplikasi ini menggunaan bootstrap
 •	Aplikasi ini menggunakan html5
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-Index.php
 <head>
     <meta charset="utf-8" />
     <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png" />
@@ -74,6 +60,33 @@ Index.php
 Pada halaman ini belum responsif karena <meta name="viewport" content="width=device-width, initial-scale=1.0"> namun hanya terdapat     <meta name="viewport" content="width=device-width" /> dan ketika dibuktikan dengan inspect, masih terdapat menu yang belum tampil ketika diakses dengan smart phone.
 Untuk tampilannya diperindah dengan menggunakan     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
 
+Css :
+* {
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+}
 
+body, html {
+	height: 100%;
+	font-family: Poppins-Regular, sans-serif;
+}
+
+/*---------------------------------------------*/
+a {
+	font-family: Poppins-Regular;
+	font-size: 14px;
+	line-height: 1.7;
+	color: #666666;
+	margin: 0px;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+}
+
+Untuk margin, padding,  menggunakan px, 
+Height menggunakan 100% 
+Transition menggunakan s 
  
 
